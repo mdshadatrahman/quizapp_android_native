@@ -63,17 +63,19 @@
                 >
 
                 <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et_name"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="@string/eg_name"
                     android:inputType="textCapWords"
-                    android:textColor="@color/welcome_color"
+                    android:textColor="@color/enter_your_name_color"
                     android:textColorHint="@color/enter_your_name_color"
                     />
 
             </com.google.android.material.textfield.TextInputLayout>
 
             <Button
+                android:id="@+id/btn_start"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
